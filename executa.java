@@ -5,11 +5,11 @@ public class executa {
 
 	public static void main(String[] args) {
 		
+		int i = 0;
+		while (i == 0);
 		try{
 			Scanner leia = new Scanner(System.in);
-			int numero1;
-			int numero2;
-			int resultado;
+			
 			 
 			System.out.println("informe o primeiro numero: ");
 			numero1 = leia.nextInt();
@@ -17,9 +17,9 @@ public class executa {
 			numero2 = leia.nextInt();
 			
 			resultado = numero1 / numero2;
-			System.out.println("Resultado da divisão é: "+ resultado);
+			System.out.println("Resultado da divisÃ£o Ã©: "+ resultado);
 		}catch(exception e){
-			System.out.println("Erro,você informou algum número inválido");
+			System.out.println("Erro,vocÃª informou algum nÃºmero invÃ¡lido");
 			
 		}
 		 
